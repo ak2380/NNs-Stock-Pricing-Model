@@ -2,9 +2,9 @@
 
 This project is intended to be an introduction into using Neural Networks to predict stock prices. This pricing model uses a neural network comprised of hidden LSTM (long short-term memory) layers in order to accurately predict the stock prices of any underlying stock based on the price of the stock over the last 60 days. It utilises the Yahoo Finance API to download historical stock data alongside a deep learning model, built using TensorFlow.
 
-Neural networks offer a powerful substitute to conventional methods including the ability to model non-linear relationships, extract and learn features from the raw data and flexibility, allowing certain NNs (neural networks) to predict stock prices based on non-numerical inputs e.g. news surrounding the company's financials (text data).
-
 This project uses a specific form of Recurrent Neural Networks, comprising of LSTM layers, in order to predict the stock price with greater accuracy. This suitability of the model is determined as a result of the nature of the underlying data being fed in since LSTMs can handle time-series data with ease and aid sequential predicting, as shown in the model in `main.py`.
+
+Neural networks offer a powerful substitute to conventional methods including the ability to model non-linear relationships, extract and learn features from the raw data and flexibility, allowing certain NNs (neural networks) to predict stock prices based on non-numerical inputs e.g. news surrounding the company's financials (text data).
 
 ##  Workflow
 
